@@ -1,26 +1,24 @@
 class calculator {
-  constructor(value1, value2){
-    this.value1= value1;
-    this.value2=value2;
+  constructor(value1, value2) {
+    this.value1 = value1;
+    this.value2 = value2;
   }
 
   add() {
     return this.value1 + this.value2;
-  };
+  }
 
-  subtract(){
+  subtract() {
     return this.value1 - this.value2;
-  };
+  }
 
-  divide(){
+  divide() {
     return this.value1 / this.value2;
-  };
+  }
 
-  multiply(){
+  multiply() {
     return this.value1 * this.value2;
-  };
-
+  }
 }
 
-// const calculator= new calculator(value1, value2);
 module.exports = calculator;
